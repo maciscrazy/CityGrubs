@@ -97,7 +97,7 @@ span {
     padding: 10px;
     border-radius: 20px;
     background-color: #f03800;
-    width: 90px;
+    width: 120px;
     color: white;
 }
 
@@ -313,6 +313,24 @@ span {
     color: #4e4e4e;
 }
 
+.category-list-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.category-box {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    margin-left: 10px;
+}
+
+.category-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
 
 @media only screen and (min-width: 768px) {
     .restaurant-box {
