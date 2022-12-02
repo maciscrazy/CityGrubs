@@ -353,6 +353,175 @@ span {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.family-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+.family-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.family-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding: 15px;
+    border-radius: 7px;
+    min-width: 300px;
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.family-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.family-box-user-image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.username {
+    color: #4E4E4E;
+    font-size: 12px;
+    margin-left: 3px;
+    flex: 1;
+}
+
+.date {
+    font-size: 13px;
+}
+
+.content-container {
+    width: 300px;
+}
+
+.content {
+    font-size: 11px;
+    padding: 5px;
+}
+
+.content-image {
+    width: 100%;
+    border-radius: 6px;
+    max-height: 170px;
+    object-fit: cover;
+}
+
+.content-image:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+
+/* Restaurant Page CSS */
+
+
+
+.cart {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 9px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.cart img {
+    width: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.cart p {
+    margin-left: 5px;
+}
+
+.restaurant-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container {
+    display: flex;
+}
+
+.banner-image {
+    width: 80%;
+    min-width: 327px;
+    height: 30vh;
+    margin-right: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: -10px;
+}
+
+.restaurant-nav-logo {
+    /* display: flex; */
+    /* position: absolute; */
+    width: 45px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+
+.restaurant-logo {
+    position: absolute;
+    width: 65px;
+    left: 30px;
+    top: 280px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.restaurant-main-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+}
+
+.restaurant-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-away {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -367,7 +536,10 @@ span {
     .phone-search-box {
         display: none;
     }
-    
+    .restaurant-banner {
+        height: 35vh;
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width: 1080px){
